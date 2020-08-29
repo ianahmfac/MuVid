@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/movie_nav_graph.xml"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="id.ianahmfac.muvid.ui.home.fragments.dashboard.DashboardFragment"
+        android:label="fragment_now_playing"
+        tools:layout="@layout/fragment_dashboard">
+        <action
+            android:id="@+id/action_dashboardFragment_to_detailActivity"
+            app:destination="@id/detailActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/upcomingFragment"
+        android:name="id.ianahmfac.muvid.ui.home.fragments.upcoming.UpcomingFragment"
+        android:label="fragment_upcoming"
+        tools:layout="@layout/fragment_upcoming">
+        <action
+            android:id="@+id/action_upcomingFragment_to_detailActivity"
+            app:destination="@id/detailActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/detailActivity"
+        android:name="id.ianahmfac.muvid.ui.details.DetailActivity"
+        android:label="activity_detail"
+        tools:layout="@layout/activity_detail">
+        <argument
+            android:name="result"
+            app:argType="id.ianahmfac.muvid.data.models.list.Result" />
+    </activity>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="id.ianahmfac.muvid.ui.home.fragments.search.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search">
+        <action
+            android:id="@+id/action_searchFragment_to_detailActivity"
+            app:destination="@id/detailActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/bookmarkFragment"
+        android:name="id.ianahmfac.muvid.ui.home.fragments.bookmark.BookmarkFragment"
+        android:label="fragment_bookmark"
+        tools:layout="@layout/fragment_bookmark">
+        <action
+            android:id="@+id/action_bookmarkFragment_to_detailActivity"
+            app:destination="@id/detailActivity" />
+        <action
+            android:id="@+id/action_bookmarkFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+    </fragment>
+</navigation>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MuVid</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="coming_soon">Upcoming</string>
+    <string name="dummy_title_movie">Dummy Title Movie</string>
+    <string name="dummy_release_date">25 February 2020</string>
+    <string name="dummy_overview">This is the overview of movies. This movie was great, good directing, and make the audience happy. The story begin with the destroyer with happy ending.</string>
+    <string name="dummy_vote_average">10.0</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="search">Search</string>
+    <string name="content_desc_banner">Banner detail movie</string>
+    <string name="overview">Overview</string>
+    <string name="result_for">Result for: %s</string>
+    <string name="videos">Videos</string>
+    <string name="save">save</string>
+    <string name="share">Share</string>
+    <string name="visit_website">Visit Website</string>
+    <string name="explore_movies_all_around_the_world">Explore Movies all around the world</string>
+    <string name="empty_favorite_movie_add_movies_to_your_favorite">Add Movies to your favorite</string>
+    <string name="browse_movie">Browse Movie</string>
+    <string name="favorite">Favorite</string>
+    <string name="search_movies">Search Movies</string>
+    <string name="see_genres">See Genres</string>
+    <string name="movies_not_found">Movies not found</string>
+</resources>
