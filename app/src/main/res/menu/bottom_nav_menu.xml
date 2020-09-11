@@ -7,7 +7,7 @@
 
     <item
         android:id="@+id/upcomingFragment"
-        android:icon="@drawable/ic_coming_soon"
+        android:icon="@drawable/ic_upcoming"
         android:title="@string/coming_soon" />
 
     <item
